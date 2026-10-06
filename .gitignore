@@ -1,0 +1,11 @@
+.DS_Store
+*.o
+*.out
+conj
+calc
+y.tab.c
+y.tab.h
+lex.yy.c
+ayacc
+oyacc
+compi
