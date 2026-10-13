@@ -1,0 +1,22 @@
+// Casa (changarro): 2 rectangulos y techo de dos aguas.
+// La cuesta izquierda sube a 45 grados; de la cumbrera hacia el alero es 225.
+color 0 ;
+rectangulo 40 240 140 120 ;
+rectangulo 90 300 40 60 ;
+linea 40 240 110 170 ;
+linea 110 170 180 240 ;
+
+// Persona: circulo (cabeza), brazos, tronco y piernas a 225 y 45 grados.
+color 1 ;
+circulo 26 300 200 ;
+linea 250 275 350 275 ;
+linea 300 226 300 330 ;
+linea 300 330 255 375 ;
+linea 300 330 345 375 ;
+
+// Coche (bocho): 2 circulos y 2 rectangulos.
+color 2 ;
+rectangulo 390 310 180 50 ;
+rectangulo 430 270 90 40 ;
+circulo 18 430 360 ;
+circulo 18 530 360 ;
